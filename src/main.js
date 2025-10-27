@@ -25,9 +25,9 @@
 
     Object.entries(videoLinks).forEach(([location, id]) => {
       const card = document.createElement('div');
-      card.className = 'video-card';
+      // card.className = 'video-card';
 
-      const heading = document.createElement('h3');
+      const heading = document.createElement('p');
       heading.textContent = location;
 
       const iframe = document.createElement('iframe');
